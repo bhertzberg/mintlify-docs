@@ -1,109 +1,200 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Samsung Interview",
+  "name": "Samsung Developer",
   "colors": {
     "primary": "#6495ED",
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/fav2.png",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
+        "tab": "Learn",
+        "icon": "square-terminal",
+      "menu": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "item": "Code Lab",
+          "icon": "rocket",
+          "groups": [
+            {
+              "group": "API Reference",
+              "icon": "square-terminal",
+              "pages": [
+                "code_lab"
+              ]
+            }
+          ]
         },
         {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "item": "Foldables and Large Screens",
+          "icon": "rocket",
+          "groups": [
+            {
+              "group": "API Reference",
+              "icon": "square-terminal",
+              "pages": [
+                "foldables"
+              ]
+            }
+          ]
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "item": "One UI Beta",
+          "icon": "rocket",
+          "groups": [
+            {
+              "group": "API Reference",
+              "icon": "square-terminal",
+              "pages": [
+                "one_ui"
+              ]
+            }
+          ]
         }
       ]
+      },
+      {
+      "tab": "Develop",
+      "icon": "square-terminal",
+      "menu": [
+        {
+          "item": "API References",
+          "icon": "rocket",
+          "groups": [
+            {
+              "group": "API Reference",
+              "icon": "square-terminal",
+              "pages": [
+                "api-reference/get",
+                "api-reference/post",
+                "api-reference/delete"
+              ]
+            }
+          ]
+        },
+        {
+          "item": "SDKs",
+          "icon": "code",
+          "description": "SDKs are used to interact with the API.",
+          "pages": [
+            "sdk/fetch",
+            "sdk/create",
+            "sdk/delete"
+          ]
+        }
+      ]
+    },
+      {
+        "tab": "Design",
+        "menu": [
+        {
+          "item": "API References",
+          "icon": "rocket",
+          "groups": [
+            {
+              "group": "API Reference",
+              "icon": "square-terminal",
+              "pages": [
+                "api-reference/get",
+                "api-reference/post",
+                "api-reference/delete"
+              ]
+            }
+          ]
+        }
+      ]
+      },
+      {
+        "tab": "Distribute",
+        "menu": [
+        {
+          "item": "API References",
+          "icon": "rocket",
+          "groups": [
+            {
+              "group": "API Reference",
+              "icon": "square-terminal",
+              "pages": [
+                "api-reference/get",
+                "api-reference/post",
+                "api-reference/delete"
+              ]
+            }
+          ]
+        }
+      ]
+      },
+      {
+        "tab": "Support",
+        "menu": [
+        {
+          "item": "API References",
+          "icon": "rocket",
+          "groups": [
+            {
+              "group": "API Reference",
+              "icon": "square-terminal",
+              "pages": [
+                "api-reference/get",
+                "api-reference/post",
+                "api-reference/delete"
+              ]
+            }
+          ]
+        }
+      ]
+      },
+      {
+        "tab": "Connect",
+        "menu": [
+        {
+          "item": "API References",
+          "icon": "rocket",
+          "groups": [
+            {
+              "group": "API Reference",
+              "icon": "square-terminal",
+              "pages": [
+                "api-reference/get",
+                "api-reference/post",
+                "api-reference/delete"
+              ]
+            }
+          ]
+        }
+      ]
+      },
+      {
+        "tab": "Blog",
+        "menu": [
+        {
+          "item": "API References",
+          "icon": "rocket",
+          "groups": [
+            {
+              "group": "API Reference",
+              "icon": "square-terminal",
+              "pages": [
+                "api-reference/get",
+                "api-reference/post",
+                "api-reference/delete"
+              ]
+            }
+          ]
+        }
+      ]
+      }
+
+    ],
+    "global": {
+      
     }
   },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
   },
   "contextual": {
     "options": [
@@ -119,9 +210,9 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "facebook": "https://www.facebook.com/samsungdev",
+      "x": "https://twitter.com/samsung_dev",
+      "linkedin": "https://www.linkedin.com/company/samsungdevelopers"
     }
   }
 }
